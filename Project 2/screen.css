@@ -114,6 +114,13 @@ ul li
 {
 	font-family: 'Ubuntu Mono', monospace;
 }
+
+.about li
+{
+	float: left;
+	width: 33%;
+	padding-bottom: 0;
+}
 .samf15
 {
 	float:right;
@@ -132,12 +139,25 @@ ul li
 	font-family: 'Calligraffitti', cursive;
 }
 
-.edc16 h4
+.edc16 
 {
 	font-family: 'Calligraffitti', cursive;
 }
 
 /* Resume Specific */
+.resume
+{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 0.75em;
+}
+
+.resume h3
+{
+	font-family: 'Cinzel', serif;
+	font-size: 1.5em
+}
+
+
 .skills
 {
 	float: right;
@@ -149,9 +169,42 @@ ul li
 	list-style-type: none;
 }
 
-.education li
+.skills h3
+{
+	font-family: 'Cinzel', serif;
+}
+
+.education 
 {
 	list-style-type: none;
+	width: 34.375em;
+	padding: 1em;
+}
+
+.education h3
+{
+	font-family: 'Cinzel', serif;
+}
+
+.work 
+{
+	list-style-type: none;
+	width: 34.375em;
+}
+
+.work h3
+{
+	font-family: 'Cinzel', serif;
+}
+
+.extra 
+{
+	list-style-type: none;
+}
+
+.extra h3
+{
+	font-family: 'Cinzel', serif;
 }
 
 /* Contact Specific */
